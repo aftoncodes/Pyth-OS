@@ -1,0 +1,14 @@
+PythonOS project!!!!
+
+What i want to include:
+1) A working log in and log out script [1]
+2) A working linux console with basic linux commands and even the ability to import linux programs (such as python3-pip) [0]
+3) Some games for fun! [0]
+4) A file system for the os to properly function (debian-based file sys) [0]
+5) A compile-able finished product (into .iso or .tar.gz or others) [0]
+6) bRaNdInG [0]
+
+checklist: 
+completed 1/6
+
+this is a great project
