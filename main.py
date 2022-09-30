@@ -176,6 +176,7 @@ Type 'exit' to exit.""")
                 time.sleep(0.5)
                 os.chdir("games")
                 os.startfile("2048.py")
+                os.chdir("..")
             elif gamechoice == '4':
                 time.sleep(0.5)
                 os.chdir("games")
