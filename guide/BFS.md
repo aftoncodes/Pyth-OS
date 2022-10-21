@@ -1,6 +1,6 @@
 # Build From Source
 
-Step 1: open terminal and do this command:
+Step 1: Open terminal and do this command:
 ```
 git clone https://github.com/WilliamAfton-codes/Pyth-OS/
 ```
