@@ -38,6 +38,8 @@ PIP (comes pre-bundled with python)
 
 [4] Run launch.py and have fun!
 
+(Optional install from source. not recommended, as the releases are more up-to date: (guide/DFS.md) )
+
 # Notes
 Please make sure that your user's password and the root password are different, otherwise issues may occur.
 
