@@ -6,7 +6,6 @@ from tabulate import tabulate
 import psutil
 import requests
 import wolframalpha
-import os
 import os.path
 import hashlib
 
@@ -191,6 +190,8 @@ Type 'exit' to exit.""")
                 os.chdir("..")
             elif gamechoice == "exit":
                 print("Okay, returning to main menu...")
+            else:
+                print("Invalid game choice! Returning to main menu...")
         elif whattodo == 6:
             for i in range(1):
                 print("Type 'exit' to exit")
@@ -205,3 +206,4 @@ Type 'exit' to exit.""")
             break
         else:
             print("\nInvalid program/script!\n")
+            
