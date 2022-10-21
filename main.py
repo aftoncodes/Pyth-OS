@@ -6,6 +6,7 @@ from tabulate import tabulate
 import psutil
 import requests
 import wolframalpha
+import os
 import os.path
 import hashlib
 
@@ -28,7 +29,7 @@ if l_i == 'False':
     with open("user/loggedin.txt", 'wb') as f:
         f.write(loggedinfalse)
     print("Not logged in! Log in by running launch.py and enter your password.")
-    print("\n|Process completed, press Enter to close |\n")
+    print("\n|Process completed, press Enter to close|\n")
     with open("user/loggedin.txt", 'wb') as f:
         f.write(loggedinfalse)
     debug_login = input()
@@ -191,18 +192,16 @@ Type 'exit' to exit.""")
             elif gamechoice == "exit":
                 print("Okay, returning to main menu...")
         elif whattodo == 6:
-            time.sleep(0.5)
             for i in range(1):
-                print("Type 'exit' to exit (May not work first try)")
-                time.sleep(1.25)
-            while True:
-                os.system('powershell')
+                print("Type 'exit' to exit")
+                time.sleep(0.5)
+                os.system("powershell")
         elif whattodo == 7:
             with open("user/loggedin.txt", 'wb') as f:
                 f.write(loggedinfalse)
             time.sleep(0.5)
             print("\nOkay, quitting!\n")
-            input("\n| Process completed, press Enter to close |\n")
+            input("\n|Process completed, press Enter to close|\n")
             break
         else:
             print("\nInvalid program/script!\n")
