@@ -7,7 +7,7 @@
 
 A personal project of mine to create a working OS based on Python 3.10
 
-Note: THIS IS NOT AN ACTUAL OS, ITS SIMPLY A PROJECT I MADE FOR FUN
+Note: THIS IS NOT AN ACTUAL OS, ITS SIMPLY AN OS-LIKE PROJECT I MADE FOR FUN
 
 This has been a project idea of mine for a while, and I've finally made it a reality. Support is appreciated!
 
