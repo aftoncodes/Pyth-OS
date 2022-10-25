@@ -34,7 +34,10 @@ PIP (comes pre-bundled with python)
 
 [2] Open CMD and cd to Pyth-OS folder
 
-[3] In CMD, enter command 'pip install -r requirements.txt'
+[3] In CMD, enter command: 
+```
+pip install -r requirements.txt
+```
 
 [4] Run launch.py and have fun!
 
@@ -43,12 +46,9 @@ PIP (comes pre-bundled with python)
 # Notes
 Please make sure that your user's password and the root password are different, otherwise issues may occur.
 
-When exiting Powershell, type 'exit' twice, this is due to an error that I can't seem to fix
+~~When exiting Powershell, type 'exit' twice, this is due to an error that I can't seem to fix~~ (Issue fixed in latest release)
 
 If you want to download Pyth-OS without DOOM, to save space or whatever, download Pyth-OS-noDOOM.zip from releases instead of Pyth-OS.zip
 
-If you run main.py without logging in through launch.py , it will not work. However, if you do so and instead of pressing enter you type 'debug', it will let you access main.py (Meant for testing, not intended usage).
-
-ㅤ
 
 Thanks for using Pyth-OS, if you liked Pyth-OS please leave a star or follow my GitHub! Discord DMs are also open, friend me at William_Afton#2643 for any questions.
