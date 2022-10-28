@@ -30,7 +30,7 @@ Python 3.10
 PIP (comes pre-bundled with python)
 
 # Usage
-[1] Download Pyth-OS.zip and unzip
+[1] Download `Pyth-OS-x.x.zip` and unzip (x.x is the version number)
 
 [2] Open CMD and cd to Pyth-OS folder
 
@@ -48,7 +48,7 @@ Please make sure that your user's password and the root password are different, 
 
 ~~When exiting Powershell, type 'exit' twice, this is due to an error that I can't seem to fix~~ (Issue fixed in latest release)
 
-If you want to download Pyth-OS without DOOM, to save space or whatever, download Pyth-OS-noDOOM.zip from releases instead of Pyth-OS.zip
+If you want to download Pyth-OS without DOOM, to save space or whatever, download `Pyth-OS-noDOOM-x.x.zip` from releases instead of `Pyth-OS-x.x.zip`
 
 
 Thanks for using Pyth-OS, if you liked Pyth-OS please leave a star or follow my GitHub! Discord DMs are also open, friend me at William_Afton#2643 for any questions.
