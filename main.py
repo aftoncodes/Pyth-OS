@@ -1,6 +1,7 @@
 import platform
 import socket
 import time
+from os.path import exists
 import GPUtil
 from tabulate import tabulate
 import psutil
@@ -8,6 +9,9 @@ import requests
 import wolframalpha
 import os.path
 import hashlib
+from pyboy import WindowEvent, PyBoy
+
+romdir = ""
 
 phvar = 0
 directory = os.getcwd()
@@ -159,6 +163,7 @@ if l_i == 'True':
 3: 2048
 4: Pac-Man
 5: DOOM
+6: GameBoy Emulator
 
 Type 'exit' to exit.""")
             gamechoice = str(input("What game do you want to play?: "))
@@ -188,6 +193,20 @@ Type 'exit' to exit.""")
                 os.system("gzdoom.exe")
                 os.chdir("..")
                 os.chdir("..")
+            elif gamechoice == '6':
+                time.sleep(0.5)
+                print("Please place your ROM in the 'ROMs' folder")
+                romdir = str(input("What is the name of your ROM? (e.g. pokemon.gb, pokemon.gbc): "))
+                if romdir == "exit":
+                    print("Okay, closing...")
+                else:
+                    try:
+                        pyboy = PyBoy('ROMs\\' + romdir)
+                        while not pyboy.tick():
+                            pass
+                        pyboy.stop()
+                    except:
+                        print("Invalid ROM!")
             elif gamechoice == "exit":
                 print("Okay, returning to main menu...")
             else:
@@ -206,4 +225,3 @@ Type 'exit' to exit.""")
             break
         else:
             print("\nInvalid program/script!\n")
-            
