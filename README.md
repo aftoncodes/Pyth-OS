@@ -22,6 +22,8 @@ A working Powershell command line
 
 A bunch of games (including DOOM)
 
+_**[NEW]**_ A GameBoy Classic and GameBoy Color emulator! Guide is [here](https://github.com/WilliamAfton-codes/Pyth-OS/blob/main/ROMs/ROMS.md)
+
 # Requirements
 Python 3.10
 
@@ -39,7 +41,7 @@ pip install -r requirements.txt
 
 [4] Run launch.py and have fun!
 
-(Optional install from source [here](guide/BFS.md))
+(Optional install from source [here](https://github.com/WilliamAfton-codes/Pyth-OS/blob/main/guide/BFS.md))
 
 # Notes
 Please make sure that your user's password and the root password are different, otherwise issues may occur.
