@@ -1,9 +1,7 @@
-██████╗░██╗░░░██╗████████╗██╗░░██╗░░░░░░░█████╗░░██████╗
-██╔══██╗╚██╗░██╔╝╚══██╔══╝██║░░██║░░░░░░██╔══██╗██╔════╝
-██████╔╝░╚████╔╝░░░░██║░░░███████║█████╗██║░░██║╚█████╗░
-██╔═══╝░░░╚██╔╝░░░░░██║░░░██╔══██║╚════╝██║░░██║░╚═══██╗
-██║░░░░░░░░██║░░░░░░██║░░░██║░░██║░░░░░░╚█████╔╝██████╔╝
-╚═╝░░░░░░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚═╝░░░░░░░╚════╝░╚═════╝░
+# Pyth-OS
+[![Python](https://img.shields.io/badge/Python-≥%203.10-yellowgreen.svg)](https://www.python.org/)
+<img src="https://img.shields.io/badge/Developed%20on-Windows%2011-blue">
+<img src="https://img.shields.io/badge/Maintained%3F-Yes-00dfa1">
 
 A personal project of mine to create a working OS based on Python 3.10
 
