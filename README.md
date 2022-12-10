@@ -39,6 +39,11 @@ PIP (comes pre-bundled with python)
 pip install -r requirements.txt
 ```
 
+If you're on Python 3.11, use this additional command due to compatability issues:
+```
+pip install pygame --pre
+```
+
 [4] Run launch.py and have fun!
 
 (Optional install from source [here](https://github.com/WilliamAfton-codes/Pyth-OS/blob/main/guide/BFS.md))
