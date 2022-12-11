@@ -16,7 +16,7 @@ A text editor
 
 A BioS Utility (shows system information)
 
-A non-gui Virtual Assistant using Wolfram|Alpha API (can understand normal language and handles HUGE math calculations)
+~~A non-gui Virtual Assistant using Wolfram|Alpha API (can understand normal language and handles HUGE math calculations)~~ (removed, pointless)
 
 A working Powershell command line
 
@@ -24,27 +24,24 @@ A bunch of games (including DOOM)
 
 _**[NEW]**_ A GameBoy Classic and GameBoy Color emulator! Guide is [here](https://github.com/WilliamAfton-codes/Pyth-OS/blob/main/ROMs/ROMS.md)
 
-# Requirements
-Python 3.10
+_**[NEW]**_ TOR support in the browser! Now you can go to your favourite .onion urls right from Pyth-OS
 
-PIP (comes pre-bundled with python)
+# Requirements
+Python 3.10 or higher (Previous versions not tested)
+
+PIP (comes pre-bundled with Python)
 
 # Usage
-[1] Download `Pyth-OS-x.x.zip` and unzip (x.x is the version number)
+[1] Download `Pyth-OS-x.x.zip` from [releases](https://github.com/WilliamAfton-codes/Pyth-OS/releases) and unzip (x.x is the version number)
 
 [2] Open CMD and cd to Pyth-OS folder
 
-[3] In CMD, enter command: 
+[3] In CMD, enter command:
 ```
 pip install -r requirements.txt
 ```
 
-If you're on Python 3.11, use this additional command due to compatability issues:
-```
-pip install pygame --pre
-```
-
-[4] Run launch.py and have fun!
+[4] Run main.py and have fun!
 
 (Optional install from source [here](https://github.com/WilliamAfton-codes/Pyth-OS/blob/main/guide/BFS.md))
 
