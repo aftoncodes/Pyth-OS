@@ -1,9 +1,0 @@
-GPUtil
-psutil
-pygame
-PyQt5
-requests
-setuptools
-tabulate
-wolframalpha
-pyboy
