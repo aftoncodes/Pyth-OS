@@ -70,6 +70,24 @@ if tor_exists == False:
 else:
     pass
 
+images_exists = exists(os.path.expanduser('~') + "\\Pyth-OS-Files\\images")
+
+if images_exists == False:
+    print("Downloading image dependencies, please wait...")
+    os.system('powershell "curl https://github.com/WilliamAfton-codes/Pyth-OS/raw/main/images.zip -o %userprofile%\\Pyth-OS-Files\\images.zip"')
+    os.system("mkdir %userprofile%\\Pyth-OS-Files\\images")
+    os.system('tar -xf %userprofile%\\Pyth-OS-Files\\images.zip -C %userprofile%\\Pyth-OS-Files\\images"')
+else:
+    pass
+
+browser_exists = exists(os.path.expanduser('~') + "\\Pyth-OS-Files\\google.py")
+
+if browser_exists == False:
+    print("Downloading browser script, please wait...")
+    os.system('powershell "curl https://github.com/WilliamAfton-codes/Pyth-OS/raw/main/google.py -o %userprofile%\\Pyth-OS-Files\\google.py"')
+else:
+    pass
+
 os.system("cls")
 
 def newuser():
