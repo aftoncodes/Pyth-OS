@@ -18,7 +18,6 @@ import time
 import random
 from tkinter import *
 from tkinter import messagebox
-from random import *
 from freegames import *
 from turtle import *
 from colorama import Fore
@@ -586,6 +585,7 @@ def browser():
 
 
 def snakegame():
+    from random import randrange
     try:
         """Snake, classic arcade game.
     
@@ -914,6 +914,7 @@ def tictactoe():
 
 
 def pacman():
+    from random import choice
     try:
         """Pacman, classic arcade game.
     
