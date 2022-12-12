@@ -9,6 +9,8 @@ Note: THIS IS NOT AN ACTUAL OS, ITS SIMPLY AN OS-LIKE PROJECT I MADE FOR FUN
 
 This has been a project idea of mine for a while, and I've finally made it a reality. Support is appreciated!
 
+This program requires Windows 10 (1903) from build 17063 or later, because it uses TAR.EXE to unzip files, which wasn't added until this build
+
 # Features
 A web browser
 
