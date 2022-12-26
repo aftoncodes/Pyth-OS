@@ -15,9 +15,14 @@ Step 2: CD into the Pyth-OS directory:
 cd Pyth-OS
 ```
 
-Step 3: run Pyth-OS with this command:
+Step 3: Install dependencies:
 ```
-python launch.py
+pip install -r requirements.txt
+```
+
+Step 4: run Pyth-OS with this command:
+```
+python main.py
 ```
 
 Thanks for downloading Pyth-OS, I hope you enjoy and be sure to star my page on GitHub!
